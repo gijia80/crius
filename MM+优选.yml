@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-09-23 15:28:28
+# 创建时间：2023-09-25 13:58:88
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：8
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,11 +87,13 @@ dns:
 
 proxies:
   - {"name":"mm.gijia.link","type":"vless","server":"mm.gijia.link","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
-  - {"name":"russia.com","type":"vless","server":"russia.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
-  - {"name":"malaysia.com","type":"vless","server":"malaysia.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
+  - {"name":"buff.lookb.link","type":"vless","server":"buff.lookb.link","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
+  - {"name":"cfip.gay","type":"vless","server":"cfip.gay","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
+  - {"name":"cn.king360.eu.org","type":"vless","server":"cn.king360.eu.org","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
   - {"name":"singapore.com","type":"vless","server":"singapore.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
+  - {"name":"malaysia.com","type":"vless","server":"malaysia.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
   - {"name":"japan.com","type":"vless","server":"japan.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
-  - {"name":"www.hugedomains.com","type":"vless","server":"www.hugedomains.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
+  - {"name":"russia.com","type":"vless","server":"russia.com","port":80,"uuid":"66fac532-97d9-41d0-8494-b6d5f50d686e","tls":false,"servername":"free.gijia.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"free.gijia.link"}},"client-fingerprint":"random"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,11 +101,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -111,11 +115,13 @@ proxy-groups:
     tolerance: 50
     proxies:
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -123,44 +129,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,11 +198,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - mm.gijia.link
-      - russia.com
-      - malaysia.com
+      - buff.lookb.link
+      - cfip.gay
+      - cn.king360.eu.org
       - singapore.com
+      - malaysia.com
       - japan.com
-      - www.hugedomains.com
+      - russia.com
 
 rules:
 # 本地/局域网地址
